@@ -12,11 +12,13 @@
            </li>
         </ul>
 		<p>已选中{{activecounts}}/共{{items.length}}</p>
+		<span>{{spanTest}}</span>
     </div>
 </template>
 <script>
 export default {
   name: 'HelloWorld',
+  props:['spanTest'],
   data () {
      return {
 	   items:[],

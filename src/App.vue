@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-   <HelloWorld></HelloWorld>
+   <HelloWorld span-test="清除完成项目"></HelloWorld>
    </div>
 </template>
 
